@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
 
+import React, { useState } from "react";
+import {Approuter, MApprouter} from "./Approuter";
+import { Mobile, PC } from "./MediaQuery"
+import './reset.css'
 function App() {
+  const [isLoggedin, setIsLoggedin] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      <Mobile>
+        <div className="mobile_container">
+          <MApprouter isLoggedin={isLoggedin} />
+        </div>
+      </Mobile>
     </div>
+
+    <div className="pc_container">
+      <PC >
+        <Approuter isLoggedin={isLoggedin} />
+      </PC>
+    </div>
+  </>
   );
 }
 
