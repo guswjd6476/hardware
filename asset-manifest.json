@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hardware/static/css/main.b2645550.css",
-    "main.js": "/hardware/static/js/main.d2d36297.js",
+    "main.css": "/hardware/static/css/main.e46c3f21.css",
+    "main.js": "/hardware/static/js/main.d5fd35bc.js",
     "index.html": "/hardware/index.html",
-    "main.b2645550.css.map": "/hardware/static/css/main.b2645550.css.map",
-    "main.d2d36297.js.map": "/hardware/static/js/main.d2d36297.js.map"
+    "main.e46c3f21.css.map": "/hardware/static/css/main.e46c3f21.css.map",
+    "main.d5fd35bc.js.map": "/hardware/static/js/main.d5fd35bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2645550.css",
-    "static/js/main.d2d36297.js"
+    "static/css/main.e46c3f21.css",
+    "static/js/main.d5fd35bc.js"
   ]
 }
