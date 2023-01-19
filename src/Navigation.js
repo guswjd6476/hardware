@@ -43,8 +43,8 @@ const Navigation =() => {
                 {isLoggedin ? ""
                 :
                 <ul>
-                    <li><Link to="/Login">로그인</Link></li>
-                    <li><Link to="/Signin">회원가입</Link></li>
+                    <li><Link onClick={()=>{setOpen(false)}} to="/Login">로그인</Link></li>
+                    <li><Link onClick={()=>{setOpen(false)}} to="/Signin">회원가입</Link></li>
                 </ul>
                 }
             </ul>  
