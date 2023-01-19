@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/guswjd6476/hardware/static/css/main.b2645550.css",
-    "main.js": "/guswjd6476/hardware/static/js/main.a440bda2.js",
-    "index.html": "/guswjd6476/hardware/index.html",
-    "main.b2645550.css.map": "/guswjd6476/hardware/static/css/main.b2645550.css.map",
-    "main.a440bda2.js.map": "/guswjd6476/hardware/static/js/main.a440bda2.js.map"
+    "main.css": "/hardware/static/css/main.b2645550.css",
+    "main.js": "/hardware/static/js/main.3168bd01.js",
+    "index.html": "/hardware/index.html",
+    "main.b2645550.css.map": "/hardware/static/css/main.b2645550.css.map",
+    "main.3168bd01.js.map": "/hardware/static/js/main.3168bd01.js.map"
   },
   "entrypoints": [
     "static/css/main.b2645550.css",
-    "static/js/main.a440bda2.js"
+    "static/js/main.3168bd01.js"
   ]
 }
